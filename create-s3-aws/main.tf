@@ -30,7 +30,6 @@ resource "aws_s3_bucket" "testing-bucket-mota"{
 }
 
 
-
 # if the bucket stores sensitive data, use encryption for added protection.
 # resource "aws_s3_bucket" "testing-bucket-mota" {
 #   # ... other configuration
